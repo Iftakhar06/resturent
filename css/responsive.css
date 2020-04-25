@@ -1,0 +1,123 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .text-left {
+        padding: 0;
+    }
+
+}
+
+/* Normal desktop (LG) :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-menu nav ul li {
+        margin: 0 5px;
+    }
+    .xn-portfolio.input-content {
+        width: 100%;
+    }
+    .text-left {
+        padding: 5px 56px;
+    }
+    .food-content h2{
+        margin-top: 5px;
+    }
+    .input-content input{
+        margin-bottom: 10px;
+    }
+    .food-content button{
+        margin-top: 5px;
+    }
+    .sticky .logo img {
+        width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .footer-local {
+        margin-bottom: 10px;
+    }
+}
+
+/* Tablet desktop (MD) :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .sticky .logo img {
+        width: 40%;
+        padding-top: 14px;
+    }
+    .social-icon {
+        margin-top: 18px;
+        margin-right: 20px;
+    }
+    .guest-padding {
+        padding: 100px 90px;
+    }
+    .xn-portfolio.input-content {
+        width: 100%;
+    }
+    .food-content h2{
+        margin-top: 5px;
+    }
+    .footer-local {
+        margin-bottom: 10px;
+    }
+    .table-cell img {
+        padding-top: 300px;
+    }
+    .table-cell h1 {
+        font-size: 83px;
+    }
+}
+ 
+/* small mobile (XS/SM):320px. */
+@media (max-width: 767px) {
+
+    .rate-content {
+        padding: 0 0;
+    }
+    .guest-padding {
+        padding: 100px 0px;
+    }
+    .input-content {
+        margin-bottom: 20px;
+    }
+    .xn-portfolio.input-content {
+        width: 100%;
+    }
+    .input-content span {
+        margin-left: 0;
+    }
+    .food-content p {
+        margin-top: 0px;
+        padding: 0;
+    }
+    .footer-local {
+        margin-bottom: 10px;
+    }
+    .table-cell h1{
+        font-size: 50px;
+    }
+    .btn-bt {
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+    .input-bg{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .table-cell{
+        padding-top: 40px;
+    }
+    .table-cell img {
+        padding-top: 75px;
+    }
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+    .input-content input {
+        width: 100%;
+    }
+    .input-content textarea {
+        width: 100%;
+    }
+}
